@@ -1,0 +1,8 @@
+line-bot-sdk
+flask
+requests
+BeautifulSoup4
+selenium
+urllib3
+pymongo
+gunicorn==19.6.0
