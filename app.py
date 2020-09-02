@@ -10,14 +10,13 @@ from linebot.models import *
 from get_jav_girls import *
 from return_one_question import *
 from database_king import *
-from database import find_info, new_restaurant, delete_restaurant, update_menu, find_db
 import os
 import json
 import random
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('wX4kW8fAYOMgibY/ZAbvqGvT4ILRNRQMr5jGRERI2BVNi/xeULoN7Sl4c9QIS4zC3Mcz57jb0fnXmkoQGhKF5xqfwLzgGtWhtaqNXEVbT5i7OmHB51u5TBWKn08uXAiTPX46sy7DSrf7uAiq/0uDBgdB04t89/1O/w1cDnyilFU=') #Your Channel Access Token
-handler = WebhookHandler('5050d88d69a3ebcea7f4820874ff9e90') #Your Channel Secret
+line_bot_api = LineBotApi('') #Your Channel Access Token
+handler = WebhookHandler('') #Your Channel Secret
 
 @app.route("/callback", methods=['POST'])
 def callback():
