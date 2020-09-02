@@ -1,11 +1,11 @@
 此為Line bot機器人 關於台大知識王的題目
-＜/br＞
+
 裡面包含有資料庫Pymongo的實作，與傳一些圖片的功能
-＜/br＞
+
 此外還有許多Line chatbot的python寫法
-＜/br＞
+
 做此project時code寫法尚不成熟，如果閒逛到此的觀眾，看看就好
-＜/br＞
+
 # line-bot-python-heroku
 ***
 API : [https://devdocs.line.me/en/](https://devdocs.line.me/en/)
